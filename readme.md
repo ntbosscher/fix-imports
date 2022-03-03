@@ -5,7 +5,7 @@ Refactoring a big JS library and breaking imports?
 
 This is a fast way to automatically update your incorrect imports after a refactor.
 
-```
+```bash
 import {Header} from "../Misc/Header";
 -> Error: Cannot find module "../Misc/Header"
 
