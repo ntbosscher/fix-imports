@@ -14,6 +14,12 @@ import {Header} from "../Misc/Header";
 > "../Misc/Header" -> import {Header} from "../../Header";
 ```
 
+## Getting started
+```bash
+cd project_root;
+go run github.com/ntbosscher/fix-imports
+```
+
 ## Algorithm
 
 By default fix-imports runs with `--write=false`, so you can see what updates will happen before applying them.
