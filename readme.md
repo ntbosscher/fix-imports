@@ -16,8 +16,9 @@ import {Header} from "../Misc/Header";
 
 ## Getting started
 ```bash
-cd project_root;
-go run github.com/ntbosscher/fix-imports
+> go install github.com/ntbosscher/fix-imports@latest
+> cd project_root;
+> fix-imports
 ```
 
 ## Algorithm
