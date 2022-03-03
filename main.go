@@ -180,9 +180,7 @@ func checkImport(ctx *FileContext, file string, line []byte) []byte {
 		return nil
 	}
 
-	fmt.Println(matches, expected, perms)
-	log.Fatalln("exit")
-
+	fmt.Println("unable to process import: no clear way forward:", matches[1])
 	return nil
 }
 
